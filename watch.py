@@ -59,14 +59,14 @@ stopwatchstarted = False
 w.resize(1000, 800)
 w.setWindowTitle("Watch")
 display = QTextEdit('')
-display.setFont(QFont('Arial', 10))
+display.setFont(QFont('Arial', 15))
 text1 = str(ctime(time()))
 text2 = 'Stopwatch: ' + str(timevar) + ' seconds'
 text3 = 'Timer: ' + str(timervar) + ' seconds'
 l1 = QLabel('stopwatch controls')
-l1.setFont(QFont('Arial', 10))
+l1.setFont(QFont('Arial', 15))
 l2 = QLabel('timer controls')
-l2.setFont(QFont('Arial', 10))
+l2.setFont(QFont('Arial', 15))
 pb1 = QPushButton("start")
 pb2 = QPushButton("stop")
 pb3 = QPushButton("reset")
