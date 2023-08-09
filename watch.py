@@ -35,6 +35,7 @@ def startt():
         global timervar
         global timerstarted
         timervar = int(timerinput.text())
+        timerinput.clear()
         timerstarted = True
     except:
         pass
