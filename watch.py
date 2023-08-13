@@ -60,6 +60,7 @@ stopwatchstarted = False
 w.resize(800, 500)
 w.setWindowTitle("Watch")
 display = QTextEdit('')
+display.setReadOnly(True)
 display.setFont(QFont('Arial', 15))
 text1 = str(ctime(time()))
 text2 = 'Stopwatch: ' + str(timevar) + ' seconds'
